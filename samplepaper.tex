@@ -9,7 +9,8 @@
 % so please use T1 fonts in your manuscript whenever possible.
 % Other font encondings may result in incorrect characters.
 %
-\usepackage{graphicx}
+
+\usepackage[dvipdfmx]{graphicx}
 % Used for displaying a sample figure. If possible, figure files should
 % be included in EPS format.
 %
@@ -21,7 +22,7 @@
 %
 \begin{document}
 %
-\title{Template of JSST2024 \& AsiaSim2024 (ver.1.0) Instructions for preparing your manuscript}
+\title{Template of JSST (ver.1.0) Instructions for preparing your manuscript}
 %
 %\titlerunning{Abbreviated paper title}
 % If the paper title is too long for the running head, you can set
@@ -29,7 +30,7 @@
 %
 \author{First Author\inst{1}\orcidID{0000-1111-2222-3333} \and
 Second Author\inst{2,3}\orcidID{1111-2222-3333-4444} \and
-Third Author\inst{3}\orcidID{2222--3333-4444-5555}}
+Third Author\inst{3}\orcidID{2222-3333-4444-5555}}
 %
 \authorrunning{F. Author et al.}
 % First names are abbreviated in the running head.
@@ -46,9 +47,8 @@ ABC Institute, Rupert-Karls-University Heidelberg, Heidelberg, Germany\\
 %
 \begin{abstract}
 The abstract should briefly summarize the contents of the paper in
-150--250 words. This is a Word template/instructions for The 43rd 
-JSST Annual Interna-tional Conference on Simulation Technology \& 
-The 23rd Asia Simulation Conference (JSST2024 \& AsiaSim2024). 
+150--250 words. This is a \LaTeX template/instructions for 
+JSST International Conference on Simulation Technology. 
 This version of the template is written on February 8, 2024. 
 The authors must input paper's title, authors' name, affiliation, 
 and corresponding author's email ad-dress. Summary is written here. 
@@ -56,8 +56,6 @@ Moreover, the authors must put keywords of the paper below.
 It is essential to adhere to this template because your manuscripts 
 are print-ed as submitted with minimal editing/formatting. 
 Do not modify any for-mats or styles. 
-Visit https://jsst-conf.jp/2024/ for the latest version of JSST2024 
-\& AsiaSim2024 template.
 
 \keywords{First keyword  \and Second keyword \and Another keyword.}
 \end{abstract}
@@ -65,12 +63,12 @@ Visit https://jsst-conf.jp/2024/ for the latest version of JSST2024
 %
 %
 \section{Introduction}
-This template provides formats and styles for Full Paper (Springer CCIS) 
-and Short Paper (JSST2024 proc.). It is essential to adhere to this 
+This template provides formats and styles for Proceeding of JSST conference.
+It is essential to adhere to this 
 template because your manu-script will be published “as is” with minimal 
 copy-editing. Do not modify formats (font, font size, paper size, 
 printing area, line space, etc).  
-Manuscripts to JSST2024 \& AsiaSim2024 are received via electronic 
+Manuscripts to JSST conference are received via electronic 
 submission only. 
 Author should prepare a manuscript by using the official approval formats 
 (LaTeX or Word style), in which all the styles and formats are prescribed. 
@@ -78,12 +76,10 @@ Use this instruction file as a template.
 
 \section{Paper length}
 The authors prepare their manuscripts according to the guidelines 
-de-scribed on the web page: https://jsst-conf.jp/2024/
+described on the web page.
 The LaTeX style file and MS Word template file can be downloaded 
-from this page. Au-thors submitting a Full Paper (Springer CCIS) should 
-prepare a paper of approximately 12 to 15 pages, and authors submitting 
-a Short Paper (JSST proc.) should prepare a paper of at least 2 pages 
-in A4-sized PDF file.
+from this page. The authors should prepare a JSST proceedings
+paper of at least two pages in an A4-sized PDF file.
 
 \subsection{A Subsection Sample}
 Please note that the first paragraph of a section or subsection is
@@ -127,7 +123,7 @@ schemas. Whenever possible, use vector graphics instead (see
 Fig.~\ref{fig1}).
 
 \begin{figure}
-\includegraphics[width=\textwidth]{fig1.eps}
+\includegraphics[width=\textwidth]{fig1.pdf}
 \caption{A figure caption is always placed below the illustration.
 Please note that short captions are centered, while long ones are
 justified by the macro package automatically.} \label{fig1}
